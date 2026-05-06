@@ -1,0 +1,139 @@
+# FICHE 25 — Diagrammes UML essentiels en BTS SLAM
+
+---
+
+## Problématique
+
+Comment représenter clairement le fonctionnement et la structure d’une application avant son développement ?
+
+---
+
+## Bonnes pratiques essentielles
+
+### Rôle de l’UML
+
+UML (Unified Modeling Language) permet de :
+
+* représenter une application ;
+* organiser la conception ;
+* faciliter la communication entre développeurs.
+
+Objectif :
+
+* comprendre le système avant de coder.
+
+---
+
+### Diagramme de cas d’utilisation
+
+Permet de représenter :
+
+* les utilisateurs (acteurs) ;
+* les fonctionnalités du système.
+
+Exemple :
+
+* se connecter ;
+* ajouter un produit ;
+* gérer un compte.
+
+Objectif :
+
+* identifier les besoins fonctionnels.
+
+---
+
+### Diagramme de classes
+
+Permet de représenter :
+
+* les classes ;
+* les attributs ;
+* les méthodes ;
+* les relations entre objets.
+
+Exemple :
+
+```text id="e1i7mr"
+Utilisateur
+- id
+- nom
++ seConnecter()
+```
+
+Relations fréquentes :
+
+* association ;
+* héritage ;
+* composition.
+
+Objectif :
+
+* structurer l’application.
+
+---
+
+### Diagramme de séquence
+
+Permet de représenter :
+
+* les échanges entre objets ;
+* l’ordre des traitements.
+
+Exemple :
+
+* utilisateur → contrôleur → base de données.
+
+Objectif :
+
+* comprendre le déroulement d’une action.
+
+---
+
+### Diagramme d’activité
+
+Permet de représenter :
+
+* les étapes d’un processus ;
+* les conditions ;
+* les décisions.
+
+Objectif :
+
+* décrire un fonctionnement métier.
+
+---
+
+### Intérêt dans un projet
+
+Les diagrammes UML permettent :
+
+* d’anticiper les problèmes ;
+* de documenter l’application ;
+* de faciliter la maintenance ;
+* de travailler en équipe.
+
+---
+
+## Ce qu’il faut savoir pour le BTS
+
+L’étudiant doit être capable de :
+
+* identifier le bon diagramme selon le besoin ;
+* lire un diagramme UML ;
+* produire un diagramme simple ;
+* expliquer le rôle des relations entre classes.
+
+Les diagrammes UML sont très présents dans les dossiers E5 et les études de conception. 
+
+---
+
+## Réflexe à retenir
+
+ANALYSER → MODÉLISER → DÉVELOPPER
+
+---
+
+## À retenir
+
+Un diagramme UML permet de comprendre et organiser une application avant son développement.
